@@ -1,0 +1,26 @@
+.box {
+  position: absolute; 
+  width: 200px;
+  height: 200px;
+}
+
+#one {
+  position: relative;
+  background: red;
+  top: 100px;
+  left: 150px;
+  z-index: 1;
+}
+
+#two {
+  position: relative;
+  background: yellow;
+  top: 80px;
+  left: 160px;
+  z-index: -1;
+}
+
+#three {
+  background: blue;
+  color: green;
+}

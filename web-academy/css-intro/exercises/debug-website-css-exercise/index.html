@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Debug Site</title>
+</head>
+<body>
+  <div class="top-bar">
+    <ul class="nav-list">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Code</a></li>
+      <li><a href="#">Search</a></li>
+    </ul>
+    <div id="search-box">
+      <input type="text" name="product-search" placeholder="Product Search" size="50">
+    </div>
+  </div>
+  
+  <div id="search-controls">
+    <div id="result-sort">
+      <span>Sort By</span>
+      <select>
+        <option value="none">Popularity</option>
+        <option value="OOP">OOP</option>
+        <option value="functional">Functional</option>
+      </select>
+    </div>
+    <div id="filter-items">
+      <span>Search By</span>
+      <select>
+        <option value="none">Language</option>
+        <option value="js">JavaScript</option>
+        <option value="py">Python</option>
+        <option value="ccp">C++</option>
+        <option value="clj">Clojure</option>
+      </select>
+    </div>
+  </div>
+  
+  <div class="parts-display">
+    <div class="display-item">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" alt="PCB board">
+      <div class="overlay">
+        <p>JavaScript</p>
+      </div>			
+    </div>
+    <div class="display-item">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/2048px-Python-logo-notext.svg.png" alt="python">
+      <div class="overlay">
+        <p>Python</p>
+      </div>			
+    </div>
+    <div class="display-iitem">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/C_Logo.png" alt="c++" >
+      <div class="overlay">
+        <p>C++</p>
+      </div>	
+    </div>
+    <div class="display-item">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Clojure_logo.svg/1024px-Clojure_logo.svg.png" alt="clojure">
+      <div class="overlay">
+        <p>Clojure</p>
+      </div>	
+    </div>
+  </div>  
+</body>
+</html>
